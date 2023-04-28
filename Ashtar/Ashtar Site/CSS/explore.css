@@ -1,0 +1,9 @@
+#GameAreaexplore{
+    background-color: rgb(0, 0, 0); opacity: 70%;
+    overflow: auto;
+    z-index: 15;
+    width: 70vw;
+    height: 100vh;
+    position: fixed; left: 14vw; top: 14.5vh;
+
+}
