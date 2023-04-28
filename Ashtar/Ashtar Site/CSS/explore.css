@@ -1,8 +1,0 @@
-#GameAreaexplore{
-    z-index: 15;
-    width: 1360px;
-    height: 775px;
-    background-color: rgb(0, 0, 0); opacity: 70%;
-    position: fixed; left: 260px; top: 140px;
-    overflow: auto;
-}
