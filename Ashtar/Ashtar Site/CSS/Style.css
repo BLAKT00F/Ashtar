@@ -251,10 +251,10 @@ h2,h1,h3,h4,h5,h6{
 }
 #GameAreamarket{
     z-index: 15;
-    width: 1360px;
-    height: 775px;
+    width: 68vw;
+    height: 80vh;
     background-color: rgb(72, 250, 250);
-    position: fixed; left: 260px; top: 140px;
+    position: fixed; left: 15vw; top: 15vh;
     overflow: y;
 }
 #GameAreachannel{
@@ -275,9 +275,9 @@ h2,h1,h3,h4,h5,h6{
 }
 #GameAreacharacter{
     z-index: 15;
-    width: 1360px;
-    height: 775px;
+    width: 68vw;
+    height: 80vh;
     background-color: rgb(84, 72, 250);
-    position: fixed; left: 260px; top: 140px;
+    position: fixed; left: 15vw; top: 15vh;
     overflow: auto;
 }
