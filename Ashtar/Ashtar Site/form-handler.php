@@ -1,4 +1,29 @@
 <?php
+// Server MetaData
+$servername = "localhost3306";
+$username = " ki12001220@localhost";
+$password = "Starseed00";
+$dbname = "ki12001220_ashtarplay";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+
+// Insert user information into the table
+$sql = "INSERT INTO Player (Username, Email, CryptoWalletAdress, Password) VALUES ('$Username', '$Email', '$CryptoWalletAdress', '$Password')";
+if (mysqli_query($conn, $sql)) {
+  // User information inserted successfully
+  header("Location: success.php");
+  exit();
+} else {
+  // Error inserting user information
+  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+}
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // validate form input
   $username = test_input($_POST["username"]);
