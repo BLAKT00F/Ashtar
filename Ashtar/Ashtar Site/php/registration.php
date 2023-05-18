@@ -3,7 +3,7 @@
 session_start();
 
 
-$con = mysqli_connect('localhost','ki12001220','Starseed35');
+$con = mysqli_connect(' ki12001220@localhost','ki12001220','Starseed35');
 
 mysqi_select_db($con, 'ki12001220_ashtarplay');
 
