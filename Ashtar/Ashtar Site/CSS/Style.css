@@ -127,16 +127,21 @@ h2,h1,h3,h4,h5,h6{
     z-index: 15;
     width: 71vw;
     height: 100vh;
-    background-image:url();
     position: fixed; left: 14vw; top: 15vh;
     overflow-y: scroll;
+    background-color: #201e3a; 
+}
+#main_backdrop{
+    z-index: 17;
+    height: fit-content;
+    
 }
 #Story_panel{
     z-index: 20;
     margin: 0px;
     padding: 20px;
     height: 60vh;
-    width: 50vh;
+    width: 130vh;
     display: fixed;
     align-items: center;
     justify-content: center;
@@ -148,15 +153,19 @@ h2,h1,h3,h4,h5,h6{
 }
 #Chapter{
     z-index: 21;
+    position: absolute; left: 20px; top: 10px;
+}
+#Story_Text{
+    position: absolute; left: 20px; top: 150px;
 }
 #Story_panelTitle{
     z-index: 15;
     margin: 0px;
     padding: 20px;
     height: 5vh;
-    width: 50vh;
+    width: 130vh;
     display: fixed;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     font-size: 18px;
     background-color: rgb(106, 83, 152); opacity: 50%;
@@ -238,7 +247,7 @@ h2,h1,h3,h4,h5,h6{
     max-width: initial;
     max-height: initial;
     display: inline-block;
-    position: absolute; left: 220px; top: 150px;
+    position: absolute; left: 975px; top: 150px;
 }
 /*EXPLORE*/
 #GameAreahub{
