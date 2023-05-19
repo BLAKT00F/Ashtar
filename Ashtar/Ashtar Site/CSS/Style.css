@@ -122,18 +122,25 @@ h2,h1,h3,h4,h5,h6{
     position: fixed; left: 0px; top: -15px;
 }
 /*MAIN*/
+#Playerwelcome{
+    position: fixed; left: 17vw; top: 17vh;
+    color: rgb(189, 21, 189);
+}
+
 #GameAreamain{
     
     z-index: 15;
     width: 71vw;
     height: 100vh;
-    position: fixed; left: 14vw; top: 15vh;
+    position: fixed; left: 13vw; top: 15vh;
     overflow-y: scroll;
     background-color: #201e3a; 
+    scrollbar-base-color: #0000;
 }
 #main_backdrop{
     z-index: 17;
     height: fit-content;
+    scrollbar-base-color: #0000;
     
 }
 #Story_panel{
@@ -141,7 +148,7 @@ h2,h1,h3,h4,h5,h6{
     margin: 0px;
     padding: 20px;
     height: 60vh;
-    width: 130vh;
+    width: 65vw;
     display: fixed;
     align-items: center;
     justify-content: center;
@@ -150,6 +157,8 @@ h2,h1,h3,h4,h5,h6{
     position: absolute; left: 25px; top: 120px;
     outline-style: inset; outline-width: 4px;outline-color: rgb(120, 103, 203);
     border: var(--border-radius);
+    overflow-y: scroll;
+    scrollbar-base-color: #0000;
 }
 #Chapter{
     z-index: 21;
@@ -230,7 +239,7 @@ h2,h1,h3,h4,h5,h6{
     z-index: 20;
     margin: 0px;
     padding: 20px;
-    height: 60vh;
+    height: 80vh;
     width: 50vh;
     display: fixed;
     align-items: center;
@@ -244,8 +253,8 @@ h2,h1,h3,h4,h5,h6{
 #VORT3X{
     z-index: 25;
     scale: 40%;
-    max-width: initial;
-    max-height: initial;
+    max-width: 20vw;
+    max-height: 30vh;
     display: inline-block;
     position: absolute; left: 975px; top: 150px;
 }
