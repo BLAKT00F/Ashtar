@@ -3,14 +3,16 @@
 body{
     width: 100%;
     height: auto;
+
 }
 #Backdrop{
     z-index: -14 !important;
-    width: 1900px;
-    height: 900px;
+    width: 100%;
+    height: 100%;
     display:inline;
-    position:fixed;left: -10px;right: -10px; top: 0px;
-    opacity: 50%;
+    position:fixed;left: 0;right: 0; top: 0px;
+    opacity: 100%;
+
 }
 #background-video{
     opacity: 100%;
@@ -56,13 +58,13 @@ h2,h1,h3,h4,h5,h6{
 }
 #Logo{
     z-index: 10;
-    width: 40vh;
+    width: 300px;
     height: 13vh;
     display: inline-block;
     position: fixed; left: 0vw; top: 0vh;
     scale: 100%;
 }
-#CHAT{
+#CHAT{ /*Chat Logo*/
     z-index: 10;
     width: 20vw;
     height: 10vh;
@@ -79,7 +81,7 @@ h2,h1,h3,h4,h5,h6{
     font-size: 18px;
     background-color: rgb(2, 1, 4);
     outline-style: inset; outline-width: 1px;outline-color: rgb(120, 103, 203);
-    position: fixed; left: 84vw; top: 13vh;
+    position: fixed; left: 83vw; top: 12.5vh;
     scale: 90%;     
     overflow-y: scroll; 
 }
@@ -89,18 +91,10 @@ h2,h1,h3,h4,h5,h6{
     padding: 20px;
     height: 40vh;
     width: 15vw;
-    /*
-    display: fixed;
-    align-items: center;
-    justify-content: center;
-    */
     font-size: 18px;
     background-color: rgb(2, 1, 4);
-    /*
-    position: absolute; left: 25px; top: 120px;
-    */
     outline-style: inset; outline-width: 1px;outline-color: rgb(120, 103, 203);
-    position: fixed; left: 84vw; top: 55vh;
+    position: fixed; left: 83vw; top: 55vh;
     scale: 90%;
     overflow-y: scroll;
 }
@@ -127,16 +121,16 @@ h2,h1,h3,h4,h5,h6{
     color: rgb(189, 21, 189);
 }
 
-#GameAreamain{
-    
+#GameAreamain{ 
     z-index: 15;
     width: 69vw;
     height: 100vh;
-    position: relative; left: 14vw; top: 15vh;
+    position: fixed; left: 13vw; top: 14.5vh;
     overflow-y: scroll;
-    background-color: #201e3a;
+    background-image: linear-gradient(#2f253b,#08010e);
     padding-left: 10px;
     padding-bottom: 10px; 
+    padding-right: 20px;
 }
 #main_backdrop{
     z-index: 17;
@@ -255,13 +249,13 @@ h2,h1,h3,h4,h5,h6{
 }
 #VORT3X{
     z-index: 21;
-    scale: 40%;
+    scale: 100%;
     max-width: 20vw;
     max-height: 30vh;
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
-    position: absolute; left: 48vw; top: 15vh;
+    position: absolute; left: 55vw; top: 28vh;
 }
 /*EXPLORE*/
 #GameAreahub{
