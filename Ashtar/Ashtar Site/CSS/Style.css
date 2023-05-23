@@ -115,6 +115,7 @@ h2,h1,h3,h4,h5,h6{
     outline-style: inset; outline-width: 4px;outline-color: rgb(120, 103, 203);
     position: fixed; left: 0px; top: -15px;
 }
+
 /*MAIN*/
 #Playerwelcome{
     position: fixed; left: 17vw; top: 17vh;
@@ -152,17 +153,32 @@ h2,h1,h3,h4,h5,h6{
     font-size: 18px;
     background-color: rgb(10, 3, 24);
     position: absolute; left: 25px; top: 120px;
-    outline-style: inset; outline-width: 4px;outline-color: rgb(120, 103, 203);
+    outline-style: inset; outline-width: 4px;outline-color: rgb(131, 72, 250);
     border: var(--border-radius);
     overflow-y: scroll;
     scrollbar-base-color: #0000;
+}
+/*#filler{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(90, 58, 155);
+    position: absolute; right: 100px; top: 0px;
+}*/
+#choices{
+    background-color:  rgb(131, 72, 250);
+    position: relative; left: 0px;
+    outline: #fff; outline-style: outset; outline-width: 4px;
+}
+#option-buttons button{
+    width: 300px; height: 50px;
+    margin-top: 5px;
 }
 #Chapter{
     z-index: 21;
     position: absolute; left: 20px; top: 10px;
 }
 #Story_Text{
-    position: absolute; left: 20px; top: 150px;
+    position: absolute; left: 20px; top: 100px;
 }
 #Story_panelTitle{
     z-index: 15;
@@ -170,12 +186,12 @@ h2,h1,h3,h4,h5,h6{
     padding-right: 10px;
     padding-left: 10px;
     height: 10vh;
-    width: 65vw;
+    width: 64vw;
     display: fixed;
     align-items: top;
     justify-content: center;
     font-size: 18px;
-    background-color: rgb(106, 83, 152); opacity: 50%;
+    background-color: rgb(131, 72, 250); opacity: 100%;
     position: absolute; left: 0px; top: 0px;
 }
 
