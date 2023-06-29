@@ -118,7 +118,7 @@ h2,h1,h3,h4,h5,h6{
 
 /*MAIN*/
 #Playerwelcome{
-    position: fixed; left: 17vw; top: 17vh;
+    left: 17vw; top: 17vh;
     display: fixed;
     color: rgb(189, 21, 189);
 }
@@ -145,7 +145,7 @@ h2,h1,h3,h4,h5,h6{
     margin: 0px;
     padding-right: 10px;
     padding-left: 10px;
-    height: 60vh;
+    height: 70vh;
     width: 65vw;
     display: fixed;
     align-items: center;
