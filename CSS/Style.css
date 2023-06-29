@@ -93,7 +93,7 @@ h2,h1,h3,h4,h5,h6{
     scale: 90%;     
     overflow-y: scroll; 
 }
-#ComChat{
+#widgetbot.io{
     z-index: -5;
     margin: 0px;
     padding: 20px;
