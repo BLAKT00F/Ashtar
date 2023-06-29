@@ -169,16 +169,18 @@ h2,h1,h3,h4,h5,h6{
 }*/
 #choices{
     background-color:  rgb(131, 72, 250);
-    position: relative; left: 0px;
+    position: absolute; left: 0px; height: 25vh;
+    top: 42vh;
     outline: #fff; outline-style: outset; outline-width: 4px;
 }
 #option-buttons button{
     width: 300px; height: 50px;
     margin-top: 5px;
+    position: absolute; left 0px; top: 100;
 }
 #Chapter{
     z-index: 21;
-    position: absolute; left: 20px; top: 10px;
+    position: absolute; left: 20px; top: -15px;
 }
 #Story_Text{
     position: absolute; left: 20px; top: 100px;
@@ -188,7 +190,7 @@ h2,h1,h3,h4,h5,h6{
     margin: 0px;
     padding-right: 10px;
     padding-left: 10px;
-    height: 10vh;
+    height: 5vh;
     width: 64vw;
     display: fixed;
     align-items: top;
