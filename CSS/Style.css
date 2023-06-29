@@ -169,8 +169,8 @@ h2,h1,h3,h4,h5,h6{
 }*/
 #choices{
     background-color:  rgb(131, 72, 250);
-    position: absolute; left: 0px; height: 25vh;
-    top: 42vh;
+    position: absolute; left: 0px; height: 23vh;
+    top: 42vh; width: 65vw;
     outline: #fff; outline-style: outset; outline-width: 4px;
 }
 #option-buttons button{
@@ -191,7 +191,7 @@ h2,h1,h3,h4,h5,h6{
     padding-right: 10px;
     padding-left: 10px;
     height: 5vh;
-    width: 64vw;
+    width: 65.5vw;
     display: fixed;
     align-items: top;
     justify-content: center;
