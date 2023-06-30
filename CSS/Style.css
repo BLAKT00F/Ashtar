@@ -162,9 +162,12 @@ h2,h1,h3,h4,h5,h6{
     outline-width: 4px;
 }
 #option-buttons button{
-    width: 290px; height: 60px;
+    width: 290px; 
+    height: 60px;
     margin-top: 5px;
-    position: relative; left :1vw; top: 27vh;
+    position: relative; 
+    left :1vw; 
+    top: 27vh;
 }
 #Chapter{
     z-index: 21;
