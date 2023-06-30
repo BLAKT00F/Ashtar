@@ -157,7 +157,7 @@ h2,h1,h3,h4,h5,h6{
     background-color: rgb(10, 3, 24);
     background-image: url(../Web\ Elements/fantasy-magical-forest-0tiooakqf5d8dqmj.jpg);
     background-size: contain;
-    position: absolute; left: 25px; top: 10px;
+    position: absolute; left: 18px; top: 10px;
     outline-style: inset; outline-width: 4px;outline-color: rgb(131, 72, 250);
     border: var(--border-radius);
     overflow-y: scroll;
@@ -260,14 +260,14 @@ h2,h1,h3,h4,h5,h6{
     z-index: 20;
     margin: 0px;
     padding: 20px;
-    height: 80vh;
+    height: 95vh;
     width: 50vh;
     display: fixed;
     align-items: center;
     justify-content: center;
     font-size: 18px;
     background-color: rgb(10, 3, 24);
-    position: absolute; left: 25px; top: 800px;
+    position: absolute; left: 17px; top: 840px;
     outline-style: inset; outline-width: 4px;outline-color: rgb(0, 0, 0);
     border: var(--border-radius);
 }
