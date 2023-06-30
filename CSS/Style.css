@@ -150,10 +150,16 @@ h2,h1,h3,h4,h5,h6{
     position: absolute; right: 100px; top: 0px;
 }*/
 #choices{
-    background-color:  rgb(131, 72, 250);
-    position: absolute; left: 0px; height: 23vh;
-    top: 42vh; width: 63vw;
-    outline: #fff; outline-style: outset; outline-width: 4px;
+    background-color: rgb(32 33 35);
+    opacity: 0.9;
+    position: absolute;
+    left: 20px;
+    top: 42vh;
+    height: 36vh;
+    width: 63vw;
+    outline: #fff;
+    outline-style: outset;
+    outline-width: 4px;
 }
 #option-buttons button{
     width: 300px; height: 50px;
@@ -165,7 +171,10 @@ h2,h1,h3,h4,h5,h6{
     position: absolute; left: 20px; top: -15px;
 }
 #Story_Text{
-    position: absolute; left: 20px; top: 100px;
+    position: absolute;
+    left: 2vw;
+    right: 4vw;
+    top: -5px;
 }
 #Story_panelTitle{
     z-index: 15;
