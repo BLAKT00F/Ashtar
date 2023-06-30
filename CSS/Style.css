@@ -154,8 +154,8 @@ h2,h1,h3,h4,h5,h6{
     opacity: 0.9;
     position: absolute;
     left: 20px;
-    top: 42vh;
-    height: 34vh;
+    top: 47vh;
+    height: 32vh;
     width: 63vw;
     outline: #fff;
     outline-style: outset;
@@ -167,7 +167,7 @@ h2,h1,h3,h4,h5,h6{
     margin-top: 5px;
     position: relative; 
     left :1vw; 
-    top: 27vh;
+    top: 24vh;
 }
 #Chapter{
     z-index: 21;
