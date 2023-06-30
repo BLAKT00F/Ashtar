@@ -37,7 +37,7 @@ h2,h1,h3,h4,h5,h6{
     margin: 10px;
     width: 13vw;
     height: 100vh;
-    position: fixed; left: -10px; top:13.5vh;
+    position: fixed; left: -13px; top:13.5vh;
     background-image: linear-gradient(#9c72ca,#3a366f);
     outline: 10px ; outline-color: black;
 }
@@ -72,27 +72,7 @@ h2,h1,h3,h4,h5,h6{
     color: rgb(189, 21, 189);
     scale: 60%;
 }
-#CHAT{ /*Chat Logo*/
-    z-index: 10;
-    width: 20vw;
-    height: 10vh;
-    display: inline-block;
-    position: fixed; left: 80vw; top: 3vh;
-    scale: 100%;
-}
-#DM{
-    z-index: -5;
-    margin: 0px;
-    padding: 20px;
-    height: 40vh;
-    width: 15vw;
-    font-size: 18px;
-    background-color: rgb(2, 1, 4);
-    outline-style: inset; outline-width: 1px;outline-color: rgb(120, 103, 203);
-    position: fixed; left: 83vw; top: 12.5vh;
-    scale: 90%;     
-    overflow-y: scroll; 
-}
+
 #widgetbot.io{
     z-index: -5;
     margin: 0px;
