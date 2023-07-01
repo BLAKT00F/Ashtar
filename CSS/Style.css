@@ -37,7 +37,7 @@ h2,h1,h3,h4,h5,h6{
     margin: 10px;
     width: 13vw;
     height: 100vh;
-    position: fixed; left: -10px; top:13.5vh;
+    position: fixed; left: -13px; top:13.5vh;
     background-image: linear-gradient(#9c72ca,#3a366f);
     outline: 10px ; outline-color: black;
 }
@@ -72,27 +72,7 @@ h2,h1,h3,h4,h5,h6{
     color: rgb(189, 21, 189);
     scale: 60%;
 }
-#CHAT{ /*Chat Logo*/
-    z-index: 10;
-    width: 20vw;
-    height: 10vh;
-    display: inline-block;
-    position: fixed; left: 80vw; top: 3vh;
-    scale: 100%;
-}
-#DM{
-    z-index: -5;
-    margin: 0px;
-    padding: 20px;
-    height: 40vh;
-    width: 15vw;
-    font-size: 18px;
-    background-color: rgb(2, 1, 4);
-    outline-style: inset; outline-width: 1px;outline-color: rgb(120, 103, 203);
-    position: fixed; left: 83vw; top: 12.5vh;
-    scale: 90%;     
-    overflow-y: scroll; 
-}
+
 #widgetbot.io{
     z-index: -5;
     margin: 0px;
@@ -156,7 +136,8 @@ h2,h1,h3,h4,h5,h6{
     font-size: 18px;
     background-color: rgb(10, 3, 24);
     background-image: url(../Web\ Elements/fantasy-magical-forest-0tiooakqf5d8dqmj.jpg);
-    position: absolute; left: 25px; top: 10px;
+    background-size: contain;
+    position: absolute; left: 18px; top: 10px;
     outline-style: inset; outline-width: 4px;outline-color: rgb(131, 72, 250);
     border: var(--border-radius);
     overflow-y: scroll;
@@ -169,22 +150,34 @@ h2,h1,h3,h4,h5,h6{
     position: absolute; right: 100px; top: 0px;
 }*/
 #choices{
-    background-color:  rgb(131, 72, 250);
-    position: absolute; left: 0px; height: 23vh;
-    top: 42vh; width: 63vw;
-    outline: #fff; outline-style: outset; outline-width: 4px;
+    background-color: rgb(32 33 35);
+    opacity: 0.9;
+    position: absolute;
+    left: 20px;
+    top: 47vh;
+    height: 32vh;
+    width: 63vw;
+    outline: #fff;
+    outline-style: outset;
+    outline-width: 4px;
 }
 #option-buttons button{
-    width: 300px; height: 50px;
+    width: 290px; 
+    height: 60px;
     margin-top: 5px;
-    position: absolute; left 0px; top: 100;
+    position: relative; 
+    left :1vw; 
+    top: 24vh;
 }
 #Chapter{
     z-index: 21;
     position: absolute; left: 20px; top: -15px;
 }
 #Story_Text{
-    position: absolute; left: 20px; top: 100px;
+    position: absolute;
+    left: 2vw;
+    right: 4vw;
+    top: -5px;
 }
 #Story_panelTitle{
     z-index: 15;
@@ -259,14 +252,14 @@ h2,h1,h3,h4,h5,h6{
     z-index: 20;
     margin: 0px;
     padding: 20px;
-    height: 80vh;
+    height: 95vh;
     width: 50vh;
     display: fixed;
     align-items: center;
     justify-content: center;
     font-size: 18px;
     background-color: rgb(10, 3, 24);
-    position: absolute; left: 25px; top: 800px;
+    position: absolute; left: 17px; top: 840px;
     outline-style: inset; outline-width: 4px;outline-color: rgb(0, 0, 0);
     border: var(--border-radius);
 }
