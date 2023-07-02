@@ -140,7 +140,6 @@ h2,h1,h3,h4,h5,h6{
     position: absolute; left: 18px; top: 10px;
     outline-style: inset; outline-width: 4px;outline-color: rgb(131, 72, 250);
     border: var(--border-radius);
-    overflow-y: scroll;
     scrollbar-base-color: #0000;
 }
 /*#filler{
@@ -150,11 +149,11 @@ h2,h1,h3,h4,h5,h6{
     position: absolute; right: 100px; top: 0px;
 }*/
 #choices{
-    z-index: 22;
+    z-index: 22; !important;
     background-color: rgb(32 33 35);
     opacity: 0.9;
     position: absolute;
-    left: 20px;
+    left: 40px;
     top: 47vh;
     height: 32vh;
     width: 63vw;
