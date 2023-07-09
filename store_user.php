@@ -5,7 +5,7 @@ session_start();
 
 // mysqli_select_db($con, 'ashtar');
 
-$con = mysqli_connect(' ki12001220@localhost','ki12001220','Starseed35');
+$con = mysqli_connect(' localhost','root');
 
 mysqli_select_db($con, 'ki12001220_ashtarplay');
 
